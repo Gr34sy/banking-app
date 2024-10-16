@@ -29,7 +29,9 @@ const MobileNav = ({ user }: MobileNavProps) => {
           />
         </SheetTrigger>
         <SheetContent side="left" className="border-none bg-white">
-          <HorizonLogo />
+          <div className="px-4">
+            <HorizonLogo />
+          </div>
 
           <div className="mobilenav-sheet">
             <SheetClose asChild>

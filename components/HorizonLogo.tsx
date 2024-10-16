@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HorizonLogo = () => {
   return (
-    <Link href="/" className="cursor-pointer flex items-center gap-1 px-4">
+    <Link href="/" className="cursor-pointer flex items-center gap-1">
       <Image
         src="/icons/logo.svg"
         width={34}
